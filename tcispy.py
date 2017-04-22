@@ -25,7 +25,7 @@ def main():
   if len(argv) != 3:
     print 'Insufficient arguments.'
     print 'Usage: {} <target/repo> <access_token>'.format(argv[0])
-    print 'Example: {} krux/hyperion d84dda6de6244eb5c30d3ef3eeda957d390a4ee7'.format(argv[0])
+    print 'Example: {} rapid7/nexpose-client d84dda6de6244eb5c30d3ef3eeda957d390a4ee7'.format(argv[0])
     exit(1)
   
   
